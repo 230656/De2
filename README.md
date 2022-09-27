@@ -1,1 +1,1 @@
-# De2
+# Digital Electronics 2
