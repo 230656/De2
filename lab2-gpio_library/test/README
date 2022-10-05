@@ -8,8 +8,8 @@
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | input | no | Tri-state, high-impedance |
    | 0 | 1 | input | yes | activation of pull-up-resistor |
-   | 1 | 0 | Output |    | low level |
-   | 1 | 1 | Output |    | high level |
+   | 1 | 0 | Output| no   | low level |
+   | 1 | 1 | Output |no | high level |
 
 ### GPIO library
 
