@@ -1,4 +1,4 @@
-# Lab 2: YOUR_FIRSTNAME LASTNAME
+# Lab 2: Filp Se4 230656
 
 ### GPIO control registers
 
@@ -7,9 +7,9 @@
    | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | input | no | Tri-state, high-impedance |
-   | 0 | 1 | | | |
-   | 1 | 0 | | | |
-   | 1 | 1 | | | |
+   | 0 | 1 | input | yes | activation of pull-up-resistor |
+   | 1 | 0 | Output| yes | low level |
+   | 1 | 1 | Output| yes | high level |
 
 ### GPIO library
 
@@ -17,12 +17,13 @@
 
    | **Version** | **Size [B]** |
    | :-- | :-: |
-   | Arduino-style     |  |
-   | Registers         |  |
-   | Library functions |  |
+   | Arduino-style     | 480 bytes |
+   | Registers         | 182 bytes |
+   | Library functions | 182 bytes |
 
 ### Traffic light
 
 3. Scheme of traffic light application with one red/yellow/green light for cars, one red/green light for pedestrians, and one push button. Connect AVR device, LEDs, resistors, push button (for pedestrians), and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![your figure]()
+Video of functionality. I had some troubles with push button and also i could find green led.
+https://youtu.be/xToy0I5IJ80
